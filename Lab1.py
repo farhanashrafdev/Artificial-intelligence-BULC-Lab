@@ -27,10 +27,11 @@ countrieslen = len(Countries)
 x=0
 for x in range(countrieslen):
     if countryName in Countries[x]:
-    #  Countries[x]== AI
-     #   Countries.replace(x,AI)
+      Countries[x]== AI
+     
 
 print(Countries)
+
 #task 2:
 Numbers = [5,6,4,2,8,5,9,10,45,26,98,5,3,4,8,25,45,63,5,31,75,14]
 
@@ -54,3 +55,4 @@ def NumberGreaterThanfourteen():
 NumbersLessThanTen()
 
 NumberGreaterThanfourteen()
+
